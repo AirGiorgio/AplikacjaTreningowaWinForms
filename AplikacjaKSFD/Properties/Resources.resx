@@ -1,0 +1,622 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barki_Unoszenie_sztangi_do_klatki_piersiowej_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barki Unoszenie sztangi do klatki piersiowej 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barki_Unoszenie_sztangi_do_klatki_piersiowej_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barki Unoszenie sztangi do klatki piersiowej 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barki_Wyciskanie_żołnierskie_hantlami_siedząc_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barki Wyciskanie żołnierskie hantlami siedząc 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barki_Wyciskanie_żołnierskie_hantlami_siedząc_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barki Wyciskanie żołnierskie hantlami siedząc 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barki_Wyciskanie_żołnierskie_sztangą_stojąc_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barki Wyciskanie żołnierskie sztangą stojąc 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barki_Wyciskanie_żołnierskie_sztangą_stojąc_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barki Wyciskanie żołnierskie sztangą stojąc 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barki_Wyciskanie_żołnierskie_sztangą_stojąc_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barki Wyciskanie żołnierskie sztangą stojąc 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barki_Wyciskanie_żołnierskie_sztangą_stojąc_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barki Wyciskanie żołnierskie sztangą stojąc 4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barki_Wznosy_hantli_bokiem_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barki Wznosy hantli bokiem 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barki_Wznosy_hantli_bokiem_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barki Wznosy hantli bokiem 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barki_Wznosy_hantli_przodem_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barki Wznosy hantli przodem 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barki_Wznosy_hantli_przodem_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barki Wznosy hantli przodem 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barki_Wznosy_hantli_przodem_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barki Wznosy hantli przodem 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barki_Wznosy_hantli_tyłem_leżąc_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barki Wznosy hantli tyłem leżąc 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barki_Wznosy_hantli_tyłem_leżąc_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barki Wznosy hantli tyłem leżąc 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barki_Wznosy_hantli_tyłem_leżąc_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barki Wznosy hantli tyłem leżąc 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barki_Wznosy_hantli_tyłem_leżąc_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barki Wznosy hantli tyłem leżąc 4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barki_Wznosy_hantli_tyłem_w_opadzie_tułowia_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barki Wznosy hantli tyłem w opadzie tułowia 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barki_Wznosy_hantli_tyłem_w_opadzie_tułowia_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barki Wznosy hantli tyłem w opadzie tułowia 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barki_Wznosy_hantli_tyłem_w_opadzie_tułowia_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barki Wznosy hantli tyłem w opadzie tułowia 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Barki_Wznosy_hantli_tyłem_w_opadzie_tułowia_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barki Wznosy hantli tyłem w opadzie tułowia 4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brzuch_Deska_bokiem_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brzuch Deska bokiem 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brzuch_Deska_bokiem_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brzuch Deska bokiem 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brzuch_Deska_plank_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brzuch Deska plank 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brzuch_Deska_plank_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brzuch Deska plank 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brzuch_Deska_plank_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brzuch Deska plank 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brzuch_Podnoszenie_nóg_wisząc_na_drążku_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brzuch Podnoszenie nóg wisząc na drążku 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brzuch_Podnoszenie_nóg_wisząc_na_drążku_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brzuch Podnoszenie nóg wisząc na drążku 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brzuch_Podnoszenie_nóg_wisząc_na_drążku_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brzuch Podnoszenie nóg wisząc na drążku 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brzuch_Rollowanie_AB_wheel_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brzuch Rollowanie AB wheel 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brzuch_Rollowanie_AB_wheel_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brzuch Rollowanie AB wheel 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brzuch_Rowerek_w_powietrzu_leżąc_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brzuch Rowerek w powietrzu leżąc 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brzuch_Rowerek_w_powietrzu_leżąc_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brzuch Rowerek w powietrzu leżąc 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brzuch_Rowerek_w_powietrzu_leżąc_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brzuch Rowerek w powietrzu leżąc 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brzuch_Skrętoskłony_siedząc_russian_twist_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brzuch Skrętoskłony siedząc russian twist 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brzuch_Skrętoskłony_siedząc_russian_twist_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brzuch Skrętoskłony siedząc russian twist 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brzuch_Skrętoskłony_siedząc_russian_twist_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brzuch Skrętoskłony siedząc russian twist 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brzuch_Skłony_tułowia_leżąc_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brzuch Skłony tułowia leżąc 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brzuch_Skłony_tułowia_leżąc_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brzuch Skłony tułowia leżąc 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brzuch_Unoszenie_nóg_leżąc_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brzuch Unoszenie nóg leżąc 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brzuch_Unoszenie_nóg_leżąc_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brzuch Unoszenie nóg leżąc 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Klatka_Przenoszenie_hantla_za_głowę__1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Klatka Przenoszenie hantla za głowę  1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Klatka_Przenoszenie_hantla_za_głowę__2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Klatka Przenoszenie hantla za głowę  2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Klatka_Przenoszenie_hantla_za_głowę__3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Klatka Przenoszenie hantla za głowę  3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Klatka_Przenoszenie_hantla_za_głowę__4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Klatka Przenoszenie hantla za głowę  4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Klatka_Rozpiętki_hantlami_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Klatka Rozpiętki hantlami 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Klatka_Rozpiętki_hantlami_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Klatka Rozpiętki hantlami 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Klatka_Rozpiętki_hantlami_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Klatka Rozpiętki hantlami 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Klatka_Rozpiętki_hantlami_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Klatka Rozpiętki hantlami 4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Klatka_Rozpiętki_linkami_na_bramie_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Klatka Rozpiętki linkami na bramie 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Klatka_Rozpiętki_linkami_na_bramie_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Klatka Rozpiętki linkami na bramie 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Klatka_Rozpiętki_linkami_na_bramie_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Klatka Rozpiętki linkami na bramie 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Klatka_Rozpiętki_linkami_na_bramie_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Klatka Rozpiętki linkami na bramie 4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Klatka_Wyciskanie_hantli_na_ławce_prostej_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Klatka Wyciskanie hantli na ławce prostej 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Klatka_Wyciskanie_hantli_na_ławce_prostej_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Klatka Wyciskanie hantli na ławce prostej 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Klatka_Wyciskanie_hantli_na_ławce_skośnej_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Klatka Wyciskanie hantli na ławce skośnej 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Klatka_Wyciskanie_hantli_na_ławce_skośnej_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Klatka Wyciskanie hantli na ławce skośnej 4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Klatka_Wyciskanie_sztangi_na_ławce_płaskiej_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Klatka Wyciskanie sztangi na ławce płaskiej 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Klatka_Wyciskanie_sztangi_na_ławce_płaskiej_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Klatka Wyciskanie sztangi na ławce płaskiej 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Klatka_Wyciskanie_sztangi_na_ławce_płaskiej_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Klatka Wyciskanie sztangi na ławce płaskiej 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Klatka_Wyciskanie_sztangi_na_ławce_płaskiej_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Klatka Wyciskanie sztangi na ławce płaskiej 4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Klatka_Wyciskanie_sztangi_na_ławce_płaskiej_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Klatka Wyciskanie sztangi na ławce płaskiej 5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Klatka_Wyciskanie_sztangi_na_ławce_płaskiej_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Klatka Wyciskanie sztangi na ławce płaskiej 6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Klatka_Wyciskanie_sztangi_na_ławce_skośnej_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Klatka Wyciskanie sztangi na ławce skośnej 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Klatka_Wyciskanie_sztangi_na_ławce_skośnej_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Klatka Wyciskanie sztangi na ławce skośnej 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Klatka_Wyciskanie_sztangi_na_ławce_skośnej_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Klatka Wyciskanie sztangi na ławce skośnej 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menubackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menubackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nogi_Martwy_ciąg_na_prostych_nogach_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nogi Martwy ciąg na prostych nogach 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nogi_Martwy_ciąg_na_prostych_nogach_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nogi Martwy ciąg na prostych nogach 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nogi_Martwy_ciąg_na_prostych_nogach_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nogi Martwy ciąg na prostych nogach 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nogi_Martwy_ciąg_na_prostych_nogach_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nogi Martwy ciąg na prostych nogach 4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nogi_Przysiady_ze_sztangą_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nogi Przysiady ze sztangą 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nogi_Przysiady_ze_sztangą_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nogi Przysiady ze sztangą 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nogi_Przysiady_ze_sztangą_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nogi Przysiady ze sztangą 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nogi_Przysiady_ze_sztangą_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nogi Przysiady ze sztangą 4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nogi_Przysiady_ze_sztangą_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nogi Przysiady ze sztangą 5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nogi_Przysiady_ze_sztangą_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nogi Przysiady ze sztangą 6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nogi_Spinanie_łydek_na_maszynie_Smitha_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nogi Spinanie łydek na maszynie Smitha 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nogi_Spinanie_łydek_na_maszynie_Smitha_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nogi Spinanie łydek na maszynie Smitha 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nogi_Spinanie_łydek_na_maszynie_Smitha_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nogi Spinanie łydek na maszynie Smitha 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nogi_Uginanie_nóg_z_hantlem_leżąc_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nogi Uginanie nóg z hantlem leżąc 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nogi_Uginanie_nóg_z_hantlem_leżąc_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nogi Uginanie nóg z hantlem leżąc 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nogi_Unoszenie_bioder_z_obciążeniem_Hip_Thrust_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nogi Unoszenie bioder z obciążeniem Hip Thrust 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nogi_Unoszenie_bioder_z_obciążeniem_Hip_Thrust_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nogi Unoszenie bioder z obciążeniem Hip Thrust 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nogi_Unoszenie_bioder_z_obciążeniem_Hip_Thrust_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nogi Unoszenie bioder z obciążeniem Hip Thrust 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nogi_Unoszenie_bioder_z_obciążeniem_Hip_Thrust_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nogi Unoszenie bioder z obciążeniem Hip Thrust 4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nogi_Wspięcia_na_palce_na_maszynie_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nogi Wspięcia na palce na maszynie 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nogi_Wspięcia_na_palce_na_maszynie_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nogi Wspięcia na palce na maszynie 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nogi_Wyciskanie_na_suwnicy_leżąc_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nogi Wyciskanie na suwnicy leżąc 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nogi_Wyciskanie_na_suwnicy_leżąc_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nogi Wyciskanie na suwnicy leżąc 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nogi_Wyciskanie_na_suwnicy_leżąc_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nogi Wyciskanie na suwnicy leżąc 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nogi_Wyciskanie_na_suwnicy_leżąc_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nogi Wyciskanie na suwnicy leżąc 4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nogi_Wykroki_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nogi Wykroki 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nogi_Wykroki_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nogi Wykroki 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nogi_Wykroki_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nogi Wykroki 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nogi_Wyprosty_na_maszynie_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nogi Wyprosty na maszynie 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nogi_Wyprosty_na_maszynie_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nogi Wyprosty na maszynie 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nogi_Wyprosty_na_maszynie_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nogi Wyprosty na maszynie 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nogi_Zginanie_nóg_na_maszynie_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nogi Zginanie nóg na maszynie 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nogi_Zginanie_nóg_na_maszynie_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nogi Zginanie nóg na maszynie 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plecy_Martwy_ciąg_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plecy Martwy ciąg 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plecy_Martwy_ciąg_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plecy Martwy ciąg 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plecy_Martwy_ciąg_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plecy Martwy ciąg 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plecy_Martwy_ciąg_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plecy Martwy ciąg 4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plecy_Podciąganie_na_drążku_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plecy Podciąganie na drążku 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plecy_Podciąganie_na_drążku_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plecy Podciąganie na drążku 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plecy_Podciąganie_na_drążku_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plecy Podciąganie na drążku 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plecy_Podciąganie_na_drążku_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plecy Podciąganie na drążku 4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plecy_WiosłowanieHantlem_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plecy WiosłowanieHantlem 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plecy_WiosłowanieHantlem_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plecy WiosłowanieHantlem 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plecy_WiosłowanieHantlem_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plecy WiosłowanieHantlem 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plecy_WiosłowanieHantlem_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plecy WiosłowanieHantlem 4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plecy_Wiosłowanie_na_maszynie_siedząc_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plecy Wiosłowanie na maszynie siedząc 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plecy_Wiosłowanie_na_maszynie_siedząc_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plecy Wiosłowanie na maszynie siedząc 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plecy_Wiosłowanie_na_maszynie_siedząc_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plecy Wiosłowanie na maszynie siedząc 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plecy_Wiosłowanie_na_maszynie_siedząc_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plecy Wiosłowanie na maszynie siedząc 4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plecy_Wiosłowanie_sztangą_w_opadzie_tułowia_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plecy Wiosłowanie sztangą w opadzie tułowia 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plecy_Wiosłowanie_sztangą_w_opadzie_tułowia_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plecy Wiosłowanie sztangą w opadzie tułowia 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plecy_Wiosłowanie_sztangą_w_opadzie_tułowia_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plecy Wiosłowanie sztangą w opadzie tułowia 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plecy_Wiosłowanie_sztangą_w_opadzie_tułowia_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plecy Wiosłowanie sztangą w opadzie tułowia 4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plecy_Wiosłowanie_sztangą_w_opadzie_tułowia_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plecy Wiosłowanie sztangą w opadzie tułowia 5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plecy_Wiosłowanie_sztangą_w_opadzie_tułowia_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plecy Wiosłowanie sztangą w opadzie tułowia 6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plecy_Wiosłowanie_sztangą_w_opadzie_tułowia_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plecy Wiosłowanie sztangą w opadzie tułowia 7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plecy_Wiosłowanie_sztangą_w_opadzie_tułowia_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plecy Wiosłowanie sztangą w opadzie tułowia 8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plecy_Wznosy_barków_szrugs_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plecy Wznosy barków szrugs 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plecy_Wznosy_barków_szrugs_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plecy Wznosy barków szrugs 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plecy_Ściąganie_drążka_do_klatki_siedząc_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plecy Ściąganie drążka do klatki siedząc 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plecy_Ściąganie_drążka_do_klatki_siedząc_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plecy Ściąganie drążka do klatki siedząc 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plecy_Ściąganie_drążka_do_klatki_siedząc_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plecy Ściąganie drążka do klatki siedząc 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plecy_Ściąganie_drążka_do_klatki_siedząc_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plecy Ściąganie drążka do klatki siedząc 4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona_Pompki_na_poręczach_Dipy_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona Pompki na poręczach Dipy 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona_Pompki_na_poręczach_Dipy_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona Pompki na poręczach Dipy 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona_Pompki_na_poręczach_Dipy_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona Pompki na poręczach Dipy 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona_Pompki_na_poręczach_Dipy_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona Pompki na poręczach Dipy 4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona_Uginanie_nadgarstka_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona Uginanie nadgarstka 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona_Uginanie_nadgarstka_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona Uginanie nadgarstka 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona_Uginanie_ramion_chwytem_młotkowym_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona Uginanie ramion chwytem młotkowym 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona_Uginanie_ramion_chwytem_młotkowym_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona Uginanie ramion chwytem młotkowym 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona_Uginanie_ramion_chwytem_młotkowym_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona Uginanie ramion chwytem młotkowym 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona_Uginanie_ramion_ze_sztangą_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona Uginanie ramion ze sztangą 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona_Uginanie_ramion_ze_sztangą_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona Uginanie ramion ze sztangą 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona_Uginanie_ramion_z_hantlem_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona Uginanie ramion z hantlem 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona_Uginanie_ramion_z_hantlem_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona Uginanie ramion z hantlem 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona_Uginanie_ramion_z_hantlem_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona Uginanie ramion z hantlem 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona_Uginianie_ramion_na_wyciągu_dolnym_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona Uginianie ramion na wyciągu dolnym 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona_Uginianie_ramion_na_wyciągu_dolnym_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona Uginianie ramion na wyciągu dolnym 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona_Wiszenie_na_drążku" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona Wiszenie na drążku.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona_Wyciskanie_francuskie_hantli_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona Wyciskanie francuskie hantli 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona_Wyciskanie_francuskie_hantli_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona Wyciskanie francuskie hantli 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona_Wyciskanie_francuskie_hantli_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona Wyciskanie francuskie hantli 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona_Wyciskanie_francuskie_hantli_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona Wyciskanie francuskie hantli 4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona_Wyciskanie_francuskie_sztangi_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona Wyciskanie francuskie sztangi 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona_Wyciskanie_francuskie_sztangi_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona Wyciskanie francuskie sztangi 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona_Wyciskanie_francuskie_sztangi_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona Wyciskanie francuskie sztangi 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona_Wyciskanie_francuskie_sztangi_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona Wyciskanie francuskie sztangi 4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona_Wyprosty_ramion_na_wyciągu_dolnym_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona Wyprosty ramion na wyciągu dolnym 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona_Wyprosty_ramion_na_wyciągu_dolnym_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona Wyprosty ramion na wyciągu dolnym 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona_Wyprosty_ramion_na_wyciągu_górnym_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona Wyprosty ramion na wyciągu górnym 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona_Wyprosty_ramion_na_wyciągu_górnym_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona Wyprosty ramion na wyciągu górnym 4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona_Wyprosty_ramion_z_hantlem_zza_głowy_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona Wyprosty ramion z hantlem zza głowy 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona_Wyprosty_ramion_z_hantlem_zza_głowy_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona Wyprosty ramion z hantlem zza głowy 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona_Wyprosty_ramion_z_hantlem_zza_głowy_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona Wyprosty ramion z hantlem zza głowy 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona_Wyprosty_ramion_z_hantlem_zza_głowy_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona Wyprosty ramion z hantlem zza głowy 4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona__Uginianie_ramion_na_modlitewniku_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona  Uginianie ramion na modlitewniku 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ramiona__Uginianie_ramion_na_modlitewniku_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ramiona  Uginianie ramion na modlitewniku 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

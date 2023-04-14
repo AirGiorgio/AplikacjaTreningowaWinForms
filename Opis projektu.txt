@@ -1,0 +1,14 @@
+To aplikacja treningowa którą stworzyłem jako pracę inżynierską.
+Zawiera dużo treści merytorycznych, autorskie (amatorskie) zdjęcia i opisy.
+Kod jest już po małej refaktoryzacji aby był schludny, ale nie 
+używałem żadnych wzorców projektowych robiąc ten projekt, to 
+była czysty for fun, więc trzeba być wyrozumiałym. Dodałem od siebie
+komentarze aby ktoś, kto to czyta szybciej się zorientował.
+Aplikacja pozwala obliczyć zapotrzebowanie kaloryczne,
+ułożyć na podstawie wyniku z kalkulatora sobie dietę z produktów
+zawartych w comboboxach oraz ułożyć trening, przeglądając zdjęcia
+i czytając opisy ćwiczeń. A następnie to wszystko zapisać do pliku. 
+Ta aplikacja jednak mimo że jest dosyć duża, nie ma wielkiej wartości,
+bo w prawdziwym życiu musisz być ogarnięty żeby samemu sobie rutyny 
+treningowe i dietetyczne pisać, ale to przede wszystkim pokaz możliwości.
+

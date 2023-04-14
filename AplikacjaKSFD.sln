@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AplikacjaKSFD", "AplikacjaKSFD\AplikacjaKSFD.csproj", "{654AF4B3-1DB0-47B2-8E61-ABFA5FA902C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{654AF4B3-1DB0-47B2-8E61-ABFA5FA902C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{654AF4B3-1DB0-47B2-8E61-ABFA5FA902C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{654AF4B3-1DB0-47B2-8E61-ABFA5FA902C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{654AF4B3-1DB0-47B2-8E61-ABFA5FA902C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73302F5A-435A-4512-8232-B9D9C31FD969}
+	EndGlobalSection
+EndGlobal
